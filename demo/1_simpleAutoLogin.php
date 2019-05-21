@@ -6,7 +6,7 @@
  * @website http://www.zjmainstay.cn
  * @project https://github.com/Zjmainstay/php-curl
  * 
- * 访问登录页，提交登录表单，查看登录结果 -- test123
+ * 访问登录页，提交登录表单，查看登录结果 -- test1234
  */
 
 require_once __DIR__.'/../vendor/autoload.php';
@@ -38,3 +38,4 @@ echo 'After Login 1(with_cookie): ' . $autologin->getUrl($getDataUrl) . $lineBre
 echo 'After Login 2(with_cookie): ' . $autologin->getUrl($getDataUrl) . $lineBreak;
 $autologin->removeLastCookie();
 echo 'After Login 3(without_cookie): ' . $autologin->getUrl($getDataUrl) . $lineBreak;
+//Creating a new branch is quick123 AND simple.
